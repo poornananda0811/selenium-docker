@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="search-module" duration-ms="38342" started-at="2022-05-31T20:53:47Z" finished-at="2022-05-31T20:54:26Z">
+    <groups>
+    </groups>
+    <test name="search-Test-Java" duration-ms="9186" started-at="2022-05-31T20:53:47Z" finished-at="2022-05-31T20:53:57Z">
+      <class name="com.searchmodule.tests.SearchTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.searchmodule.tests.SearchTest@2a18f23c]" name="setUp" is-config="true" duration-ms="1207" started-at="2022-05-31T20:53:47Z" finished-at="2022-05-31T20:53:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@41709512]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchPage(java.lang.String)[pri:0, instance:com.searchmodule.tests.SearchTest@2a18f23c]" name="searchPage" duration-ms="7795" started-at="2022-05-31T20:53:49Z" finished-at="2022-05-31T20:53:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPage -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.searchmodule.tests.SearchTest@2a18f23c]" name="quitBrowser" is-config="true" duration-ms="175" started-at="2022-05-31T20:53:56Z" finished-at="2022-05-31T20:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </test> <!-- search-Test-Java -->
+    <test name="search-Test-QA" duration-ms="6655" started-at="2022-05-31T20:53:57Z" finished-at="2022-05-31T20:54:03Z">
+      <class name="com.searchmodule.tests.SearchTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.searchmodule.tests.SearchTest@129a8472]" name="setUp" is-config="true" duration-ms="488" started-at="2022-05-31T20:53:57Z" finished-at="2022-05-31T20:53:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@42039326]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchPage(java.lang.String)[pri:0, instance:com.searchmodule.tests.SearchTest@129a8472]" name="searchPage" duration-ms="6040" started-at="2022-05-31T20:53:57Z" finished-at="2022-05-31T20:54:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPage -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.searchmodule.tests.SearchTest@129a8472]" name="quitBrowser" is-config="true" duration-ms="126" started-at="2022-05-31T20:54:03Z" finished-at="2022-05-31T20:54:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </test> <!-- search-Test-QA -->
+    <test name="search-Test-WebDriver" duration-ms="6215" started-at="2022-05-31T20:54:04Z" finished-at="2022-05-31T20:54:10Z">
+      <class name="com.searchmodule.tests.SearchTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.searchmodule.tests.SearchTest@2752f6e2]" name="setUp" is-config="true" duration-ms="489" started-at="2022-05-31T20:54:04Z" finished-at="2022-05-31T20:54:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@33308786]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchPage(java.lang.String)[pri:0, instance:com.searchmodule.tests.SearchTest@2752f6e2]" name="searchPage" duration-ms="5655" started-at="2022-05-31T20:54:04Z" finished-at="2022-05-31T20:54:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WebDriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPage -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.searchmodule.tests.SearchTest@2752f6e2]" name="quitBrowser" is-config="true" duration-ms="69" started-at="2022-05-31T20:54:10Z" finished-at="2022-05-31T20:54:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </test> <!-- search-Test-WebDriver -->
+    <test name="search-Test-Docker" duration-ms="6665" started-at="2022-05-31T20:54:10Z" finished-at="2022-05-31T20:54:17Z">
+      <class name="com.searchmodule.tests.SearchTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.searchmodule.tests.SearchTest@1d251891]" name="setUp" is-config="true" duration-ms="802" started-at="2022-05-31T20:54:10Z" finished-at="2022-05-31T20:54:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4f9a2c08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchPage(java.lang.String)[pri:0, instance:com.searchmodule.tests.SearchTest@1d251891]" name="searchPage" duration-ms="5672" started-at="2022-05-31T20:54:11Z" finished-at="2022-05-31T20:54:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Docker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPage -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.searchmodule.tests.SearchTest@1d251891]" name="quitBrowser" is-config="true" duration-ms="190" started-at="2022-05-31T20:54:17Z" finished-at="2022-05-31T20:54:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </test> <!-- search-Test-Docker -->
+    <test name="search-Test-Kubernetes" duration-ms="8813" started-at="2022-05-31T20:54:17Z" finished-at="2022-05-31T20:54:26Z">
+      <class name="com.searchmodule.tests.SearchTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.searchmodule.tests.SearchTest@43a25848]" name="setUp" is-config="true" duration-ms="624" started-at="2022-05-31T20:54:17Z" finished-at="2022-05-31T20:54:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a87f8ec]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchPage(java.lang.String)[pri:0, instance:com.searchmodule.tests.SearchTest@43a25848]" name="searchPage" duration-ms="7966" started-at="2022-05-31T20:54:18Z" finished-at="2022-05-31T20:54:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kubernetes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPage -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.searchmodule.tests.SearchTest@43a25848]" name="quitBrowser" is-config="true" duration-ms="222" started-at="2022-05-31T20:54:25Z" finished-at="2022-05-31T20:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </test> <!-- search-Test-Kubernetes -->
+  </suite> <!-- search-module -->
+</testng-results>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [search-module]">
+  <test thread-count="5" name="search-Test-Java(failed)">
+    <parameter name="keyword" value="java"/>
+    <classes>
+      <class name="com.searchmodule.tests.SearchTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="searchPage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </classes>
+  </test> <!-- search-Test-Java(failed) -->
+  <test thread-count="5" name="search-Test-QA(failed)">
+    <parameter name="keyword" value="QA"/>
+    <classes>
+      <class name="com.searchmodule.tests.SearchTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="searchPage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </classes>
+  </test> <!-- search-Test-QA(failed) -->
+  <test thread-count="5" name="search-Test-WebDriver(failed)">
+    <parameter name="keyword" value="WebDriver"/>
+    <classes>
+      <class name="com.searchmodule.tests.SearchTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="searchPage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </classes>
+  </test> <!-- search-Test-WebDriver(failed) -->
+  <test thread-count="5" name="search-Test-Docker(failed)">
+    <parameter name="keyword" value="Docker"/>
+    <classes>
+      <class name="com.searchmodule.tests.SearchTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="searchPage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </classes>
+  </test> <!-- search-Test-Docker(failed) -->
+  <test thread-count="5" name="search-Test-Kubernetes(failed)">
+    <parameter name="keyword" value="Kubernetes"/>
+    <classes>
+      <class name="com.searchmodule.tests.SearchTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="searchPage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </classes>
+  </test> <!-- search-Test-Kubernetes(failed) -->
+</suite> <!-- Failed suite [search-module] -->
